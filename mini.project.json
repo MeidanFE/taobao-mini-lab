@@ -1,0 +1,9 @@
+{
+  "cloud": {
+    "type": "CLOUDAPP"
+  },
+  "component2": true,
+  "enableParallelLoader": true,
+  "enableDistFileMinify": true,
+  "axmlStrictCheck": true
+}

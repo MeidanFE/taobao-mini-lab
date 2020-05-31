@@ -1,0 +1,10 @@
+.f2-progress {
+    position: relative;
+    background-color: #1890ff;
+    background-image: linear-gradient(#246BFF, #2797FF);
+}
+
+.f2-pie{
+ width: 100%;
+  height: 500rpx;
+}

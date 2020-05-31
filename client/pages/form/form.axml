@@ -1,0 +1,29 @@
+<form ref="saveRef" style="width: 60%" data-name="form" labelCol="{{labelCol}}" wrapperCol="{{wrapperCol}}">
+  <form-item label="活动名称:"  >
+    <input 
+      onChange="onChange" 
+      data-name="name" 
+      value="{{name}}" 
+      name="name" 
+      maxLength="30"
+      trim
+      hasLimitHint
+      placeholder="请输入活动名称" />
+  </form-item>
+  <form-item label="活动时间:" >
+     <range-picker value="{{[startTime,endTime]}}" data-name="startEndTime" onChange="onChange"   format="YYYY/MM/DD" showTime hasClear="{{false}}"/>
+  </form-item>
+  <form-item label="活动规则:" >
+    <textarea onChange="onChange" data-name="rule" value="{{rule}}" onChange="onChange"  name="rule" />
+  </form-item>
+  <form-item label="活动类型:">
+    <radio-group  value="{{chanceType}}" onChange="onChange" data-name="chanceType" name="chanceType">
+        <radio value="buy" class="mr-10"></radio>购买限制<input style="width:40px" class="mx-10" onChange="onChange" value="{{limitCount}}" data-name="limitCount" name="limitCount" />次
+        <radio value="task" class="mx-10">做任务</radio>
+    </radio-group>
+  </form-item>
+  <form-item label=" ">
+    <button onTap="handleSubmit">Confirm</button>
+    <!--<button style="margin-left:8px" onClick={this.reset}>reset</button>-->
+  </form-item>
+</form>

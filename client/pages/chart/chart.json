@@ -1,0 +1,8 @@
+{
+  "component": true,
+  "usingComponents": {
+    "router-view": "miniapp-router/router-view/router-view",
+    "line":"./line/line",
+    "pie":"./pie/pie"
+  }
+}

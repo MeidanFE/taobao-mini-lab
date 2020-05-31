@@ -1,0 +1,4 @@
+/* required by usingComponents */
+.adaptive-framework{
+    height: 100vh;
+}

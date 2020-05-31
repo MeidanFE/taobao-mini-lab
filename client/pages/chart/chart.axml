@@ -1,0 +1,4 @@
+<router-view>
+  <line slot="line" />
+  <pie slot="pie" />
+</router-view>

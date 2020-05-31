@@ -1,0 +1,7 @@
+<framework style="width:100vw;height:100vh" info="{{ info }}" menu="{{ menu }}" onChange="onChange" defaultActiveKey="{{ defaultActiveKey }}" activeKey="{{ activeKey }}">
+	<router-view>
+		<form slot="form" />
+		<chart slot="chart" />
+    <lottie slot="lottie"/>
+	</router-view>
+</framework> 

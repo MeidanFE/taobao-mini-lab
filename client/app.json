@@ -1,0 +1,8 @@
+{
+  "pages": [
+    "pages/layout/layout"
+  ],
+  "window": {
+    "defaultTitle": "淘宝小程序实验室"
+  }
+}

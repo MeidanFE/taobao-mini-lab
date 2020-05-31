@@ -1,0 +1,9 @@
+<view class="f2-progress">
+  <view style="position:absolute;top:60px;left:50%;transform:translate(-50%,0);width: 120px;color: #fff;white-space: nowrap;text-align:center;">
+    <view style="font-size: 18px;margin:0;">本月进度</view>
+    <view id="text" style="font-size: 36px;margin:0;font-weight: bold;">{{num}}</view>
+  </view>
+  
+  <f2 class="f2-pie" onInit="onInitChart"></f2>
+
+</view>
