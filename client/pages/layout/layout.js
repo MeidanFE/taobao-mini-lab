@@ -32,11 +32,6 @@ Page({
           { name: "饼图", key: "pie" },
         ],
       },
-      {
-        name: "lottie",
-        key: "lottie",
-        title: "lottie动画(请用手机淘宝打开)",
-      },
       // {
       //   /* name用于配置左侧菜单名称 */
       //   name: 'Component 组件',

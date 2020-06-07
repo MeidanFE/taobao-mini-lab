@@ -3,6 +3,6 @@
   <button onTap="play">play</button>
   <button onTap="pause">pause</button>
   <view class="canvas-view">
-    <canvas id="canvas" width="610" height="610" class="canvas" onTouchStart="log" onTouchMove="log" onTouchEnd="log" type="webgl" />
+    <canvas id="canvas" width="610" height="610" class="canvas" type="webgl" />
   </view>
 </view>

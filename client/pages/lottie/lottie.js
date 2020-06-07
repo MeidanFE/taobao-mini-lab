@@ -1,6 +1,8 @@
 import lottie from "@tbminiapp/lottie-miniapp";
-
-Component({
+import animationData from "../../json/catrim";
+ 
+Page({
+  onReady() {},
   init() {
     this.canvas = my._createCanvas({
       id: "canvas",
@@ -12,7 +14,7 @@ Component({
           loop: true,
           autoplay: true,
           // path:'https://gw.alipayobjects.com/os/lottie-asset/coupon-tip/data.json/data-80154.json',
-          animationData: require("../../json/catrim.js"),
+          animationData,
           rendererSettings: {
             context: canvas.getContext("2d"),
           },

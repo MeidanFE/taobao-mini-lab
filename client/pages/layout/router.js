@@ -1,4 +1,4 @@
-export const basePath = "/form";
+export const basePath = "/lottie";
 
 export const routerConfig = {
   routes: [
@@ -13,10 +13,6 @@ export const routerConfig = {
         { path: "/line", component: "line" },
         { path: "/pie", component: "pie" },
       ],
-    },
-    {
-      path: "/lottie",
-      component: "lottie",
     },
     // {
     //   path: '/component',

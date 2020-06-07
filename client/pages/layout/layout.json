@@ -2,7 +2,6 @@
   "usingComponents": {
     "router-view": "miniapp-router/router-view/router-view",
     "form": "/pages/form/form",
-    "chart": "/pages/chart/chart",
-    "lottie": "/pages/lottie/lottie"
+    "chart": "/pages/chart/chart"
   }
 }

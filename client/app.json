@@ -1,5 +1,7 @@
 {
   "pages": [
+    "pages/zdog/zdog",
+    "pages/lottie/lottie",
     "pages/layout/layout"
   ],
   "window": {
