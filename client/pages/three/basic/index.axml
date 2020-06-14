@@ -1,0 +1,1 @@
+<canvas id="canvas" style="width:{{systemInfo.windowWidth}}px;height:{{systemInfo.windowHeight}}px" width="{{systemInfo.windowWidth*systemInfo.pixelRatio}}" height="{{systemInfo.windowHeight*systemInfo.pixelRatio}}" class="canvas" type="webgl" />

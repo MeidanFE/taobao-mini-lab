@@ -1,0 +1,4 @@
+<view>
+  <button size="default" type="primary" data-page="basic" onTap="goToPage">基础例子</button>
+  <!-- <button size="default" type="primary" data-page="cube-camera" onTap="goToPage">cube-camera</button> -->
+</view>

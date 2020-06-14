@@ -3,7 +3,7 @@
     "type": "CLOUDAPP"
   },
   "component2": true,
-  "enableParallelLoader": true,
-  "enableDistFileMinify": true,
-  "axmlStrictCheck": true
+  "enableParallelLoader": false,
+  "enableDistFileMinify": false,
+  "axmlStrictCheck": false
 }
