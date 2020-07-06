@@ -1,0 +1,1 @@
+<canvas id="canvas" type="webgl" onReady="onCanvasReady" class="canvas" onTouchStart="onTouchHandle" onTouchMove="onTouchHandle" onTouchEnd="onTouchHandle"></canvas>

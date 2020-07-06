@@ -1,13 +1,11 @@
 {
   "pages": [
-    "pages/three/three",
+    "pages/pixijs/pixijs",
     "pages/lottie/lottie",
-    "pages/layout/layout",
-    "pages/three/basic/index",
-    "pages/three/cube-camera/index"
+    "pages/layout/layout"
   ],
   "window": {
     "defaultTitle": "淘宝小程序实验室",
-    "enableSkia":"true"
+    "enableSkia": "true"
   }
 }
