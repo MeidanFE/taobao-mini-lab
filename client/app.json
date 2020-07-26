@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/matterjs/matterjs",
     "pages/pixijs/pixijs",
     "pages/lottie/lottie",
     "pages/layout/layout"
